@@ -1,8 +1,11 @@
 {
   "name": "ng2-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "ng2-install": "bin/ng2-instal"
+  },
   "dependencies": {
     "git-clone": "^0.1.0",
     "rimraf": "^2.6.1",
