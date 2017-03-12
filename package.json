@@ -1,0 +1,26 @@
+{
+  "name": "ng2-install",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "git-clone": "^0.1.0",
+    "rimraf": "^2.6.1",
+    "install": "^0.8.7",
+    "npm": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikfig/ng2-install.git"
+  },
+  "author": "Erik Figueiredo <falecom@erikfigueiredo.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikfig/ng2-install/issues"
+  },
+  "homepage": "https://github.com/erikfig/ng2-install#readme"
+}
