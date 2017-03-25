@@ -16,6 +16,9 @@ module.exports = function () {
         version = d.toString().trim();
         if (version == 4 || version == 2) {
             console.log('Baixando esqueleto do Angular ' + version);
+        } else if (version == 3) {
+            console.log('Aparentemente a equipe do Angular sabe contar tão bem quanto a do PHP, isso não é minha culpa, use 2 ou 4!');
+            process.exit(1);
         } else {
             console.log('Por favor, informe um valor válido (2 ou 4)!');
             process.exit(1);
